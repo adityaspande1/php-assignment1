@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(120deg, #1a1a1a, #333333);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.row {
+    padding-top: 3%;
+}
+
+.form-container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.form-container h1 {
+    text-align: center;
+    color: #0072ff;
+    font-family: 'cursive';
+}
+
+.form-container .form-group {
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    color: #0072ff;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #0072ff;
+    border-radius: 0;
+    color: #fff;
+}
+
+.form-container input::placeholder,
+.form-container textarea::placeholder {
+    color: #ccc;
+}
+
+.form-container button {
+    background-color: #0072ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #00c6ff;
+}
+
+.form-container select {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #0072ff;
+    color: #fff;
+}
+
+.form-container select option {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.form-container .form-check-input {
+    background: transparent;
+    border: 2px solid #0072ff;
+    border-radius: 50%;
+}
+
+.form-container .form-check-input:checked {
+    background: #0072ff;
+    border: none;
+}
